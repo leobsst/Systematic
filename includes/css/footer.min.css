@@ -1,0 +1,97 @@
+@media all and (max-width: 1020px){
+    footer .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot_deux_ctn{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot_prem_lt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .foot_prm{
+        margin: 0;
+    }
+    .foot_prm_lb{
+        width: 100%;
+        height: 100px;
+    }
+    .foot_prm_btn{
+        font-size: 23px;
+    }
+    .txt_footer_prm{
+        width: 85%;
+        height: 60px;
+    }
+    .foot_prem_drt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .foot_prem_drt p{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .foot_prem_lg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot_prem_lg ul{
+        padding: 0;
+        margin: 0;
+    }
+    .foot_prem_lg img{
+        width: 4em;
+    }
+    .fott_deux_ctn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .foot_dx_prm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .foot_deux_dt ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .foot_deux_dt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

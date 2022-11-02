@@ -1,0 +1,132 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: malgun;
+    color: white;
+    background-color: rgb(37, 29, 29);
+    margin-top: 300px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px 0px 20px 0px;
+    margin: 0;
+    border-bottom: 1px rgba(128, 128, 128, 0.452) solid;
+}
+
+
+/*--------FOOTER---------*/
+
+/*------SPAN------*/
+
+.blue{
+    color: rgb(27, 137, 180);
+    font-weight: bold;
+}
+
+.foot_prem_lt{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding-right: 30px;
+}
+.foot_prm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.foot_prm_lb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 35px;
+}
+.txt_footer_prm{
+    display: flex;
+    width: 60%;
+    height: 30px;
+    background-color: rgb(37, 29, 29);
+    border: 0;
+    border-bottom: 1px var(--pink-color) solid;
+    color: white;
+    font-size: 25px;
+}
+.txt_footer_prm::placeholder{
+    font-size: 20px;
+    color: white;
+}
+.foot_prm_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: var(--pink-color);
+    border-radius: 45px;
+    border: 0;
+    min-height: 80%;
+    color: white;
+    margin-left: 10px;
+    padding: 15px;
+    cursor: pointer;
+    min-width: 200px;
+}
+.foot_deux_ctn{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0 25px 0;
+}
+.foot_prem_drt{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    padding-left: 30px;
+    border-left: 1px rgba(128, 128, 128, 0.452) solid;
+}
+
+.foot_dx_prm{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    justify-content: end;
+    padding-right: 30px;
+}
+.foot_dx_prm p{
+    margin: 0;
+}
+.foot_deux_dt{
+    display: flex;
+    width: 50%;
+    border-left: 1px rgba(128, 128, 128, 0.452) solid;
+    padding-left: 30px;
+}
+.foot_deux_dt ul a {
+    color: white;    
+}
+.foot_deux_dt ul{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.ft_dx_p{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 12px 0 0px;
+    list-style-type: none;
+}

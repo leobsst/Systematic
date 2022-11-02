@@ -1,0 +1,58 @@
+@media (max-width: 1020px) {
+    div.content {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    div.content tr {
+        display: grid!important;
+    }
+    div.content tr td {
+        width: 100vw!important;
+        overflow-x: hidden;
+    }
+    div.content td.left {
+        border-right: none!important;
+    }
+    div.content td.right {
+        margin-top: 5em;
+    }
+    div.content div.und {
+        width: 100%;
+    }
+    div.content div.idx_ctr_ctn {
+        width: 100%;
+        display: block;
+    }
+
+    /*--------Jonathan----------*/
+
+    .idx_rgt_sct_p{
+        font-size: 30px;
+    }
+    .idx_sct_h_c{
+        font-size: 30px;
+    }
+    .rgt_crt_sctb{
+        font-size: 30px;
+    }
+    .span_blue{
+        font-size: 30px;
+    }
+
+    /*-----------HUB ET ENJEUX------------*/
+
+    .idx_sct_h{
+        font-size: 30px;
+    }
+    .sct_frt_crt{
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 1270px){
+    div.content{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2em;
+    }
+}
